@@ -61,6 +61,7 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 I used a combination of color and gradient thresholds to generate a binary image. The code is contained into `hls_color_thresh` , `sobel_x`, `mag_thresh`, `dir_threshold` and `mag_dir_thresh` functions. Examples are provided in the notebook.
 ![alt text][image1]
+![alt text][image2]
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
 Inside the section Perspective Transformation, I choose the following source and destination points:
